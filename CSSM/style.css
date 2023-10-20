@@ -1,0 +1,83 @@
+
+
+body {
+
+    background-image: url('/PaginaCesarMovies/Resouces/fondo.jpg');
+    background-color: rgba(161, 255, 255, 0.781);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-padding{
+    padding: 10px 0;
+}
+
+
+.carousel-inner .carousel-item {
+    width: 75%
+  }
+
+  .carousel-item video {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+
+
+.navbar-light .navbar-brand:focus, .navbar-ligth .navbar-brand:hover{
+    color: black;
+}
+
+.navbar-brand .text-primary {
+    background: linear-gradient(to bottom, white,black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.dropdown-menu {
+    background-color: #333;
+}
+
+.dropdown-menu a {
+    color: white; 
+}
+
+.dropdown-menu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.services .card-body{
+    font-size: 30px;
+}
+
+.team .card-body{
+    font-size: 20px;
+}
+
+a img:hover {
+    color: #fff;
+}
+
+
+
+footer.bg-dark {
+    background-color: #343a40; /* Cambia el color de fondo si es necesario */
+    color: white; /* Cambia el color de texto si es necesario */
+    padding: 20px 0; /* Ajusta el espaciado superior e inferior */
+    border-top: 3px solid #343a40;
+}
